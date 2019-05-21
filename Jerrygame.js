@@ -12,7 +12,7 @@ function setup() {
   //    start = true 
   //   }
   // } 
-  createCanvas(displayWidth, displayHeight);
+  createCanvas(600,600);
   angleMode(DEGREES);
   if (start === true) {
     for (let i = 0; i < numB; i++) {
