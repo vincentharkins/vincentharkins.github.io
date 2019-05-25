@@ -1,6 +1,6 @@
 let bubbles = []
 function setup() {
-  createCanvas(displayWidth- 100, displayHeight-100);
+  createCanvas(displayWidth- 100, displayHeight-20);
   for (let i = 0;i < 600;i++){
     let x = 20 + 100 * i;
     bubbles[i] = new Bubble(x,200,200)
