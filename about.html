@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body bgcolor="purple">
+<title>About</title>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+        }
+        li a, .dropbtn {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+        li.dropdown {
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body text = "blue">
+<body background="https://images.wallpaperscraft.com/image/hello_neon_inscription_130946_3840x2400.jpg">
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Games</a>
+        <div class="dropdown-content">
+            <a href="snake.html">Solar</a>
+            <a href="draw.html">Draw</a>
+            <a href="Tower defense.html">Tower defense</a>
+
+        </div>
+    </li>
+</ul>
+<h1>Hello, my name is Vincent Harkins</h1>
+<h2>Welcome to my website!</h2>
+</body>
+</html>
